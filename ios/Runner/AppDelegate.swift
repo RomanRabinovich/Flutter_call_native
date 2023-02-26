@@ -27,7 +27,7 @@ import Flutter
       device.isBatteryMonitoringEnabled = true
       if device.batteryState == UIDevice.BatteryState.unknown {
         result(FlutterError(code: "UNAVAILABLE",
-                            message: "Battery level not available.",
+                            message: "Fuck! Battery level not available.",
                             details: nil))
       } else {
         result(Int(device.batteryLevel * 100))
